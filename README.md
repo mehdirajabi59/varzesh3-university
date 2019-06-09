@@ -14,3 +14,6 @@ You will also see any lint errors in the console.
 
 ### `API`
 I have use api for show news on home page
+
+
+URL NEWS API : [https://api.myjson.com/bins/go5sp](https://api.myjson.com/bins/go5sp) 
