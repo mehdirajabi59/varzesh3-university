@@ -1,0 +1,61 @@
+footer{
+    direction: rtl;
+    min-width: 970.2px;
+    margin-top: 16px;
+    font-size: 12px;
+    background-color: #292a31;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+footer span {
+    font-size: 11px!important;
+    line-height: 25px!important;
+    color: #eee;
+    font-family: 'iranSans';
+}
+
+.footer_link{
+    font-size: 12px;
+}
+
+.footer_link a {
+    color: #d6d6d6;
+    font-size: 12px;
+    line-height: 3;
+    font-family: 'iranSans';
+    transition: color .3s ease;
+}
+
+.footer_link a:hover{
+    color: #838590;
+    text-decoration: none;
+}
+
+.color-bar{
+    height: 2px;
+    width: 100%;
+    display: block;
+}
+
+.color-bar--item{
+    display: block;
+    float: right;
+    width: 20%;
+    height: 2px;
+}
+.color-bar > .red{
+    background-color: #e74c3c;
+}
+.color-bar > .yellow{
+    background-color: #f1c40f;
+}
+.color-bar > .blue{
+    background-color: #4285f4;
+}
+.color-bar > .green{
+    background-color: #2ecc71;
+}
+.color-bar > .gray{
+    background-color: #666;
+}

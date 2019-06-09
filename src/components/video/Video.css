@@ -1,0 +1,46 @@
+#video-slider{
+
+    position: relative;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ddd;
+    background-color: #fff;
+}
+
+
+#video-slider-title{
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#video-slider-title h1 {
+    line-height: 35px;
+    font-family: 'iranSans';
+    color:#555;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#video-slider-content{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#video-slider-content h4{
+    padding: 5px;
+    margin: 5px 0;
+    color: #333;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'iranSans';
+    font-size: 11px;
+}
+
+#video-slider-content h4 a{
+    color: #444;
+    font-family: 'iranSans';
+}

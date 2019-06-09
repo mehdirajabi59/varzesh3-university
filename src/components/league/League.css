@@ -1,0 +1,70 @@
+#league{
+    position: relative;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ddd;
+    background-color: #fff;
+}
+
+#league-header {
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#league-header  h1 {
+    line-height: 35px;
+    font-family: 'iranSans';
+    color:#555;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#league-select{
+    line-height: 11px;
+    font-size: 11px;
+    padding: 2px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 8px;
+    font-family: 'iranSans';
+}
+
+#league-table {
+    width: 100%;
+    direction: rtl;
+}
+
+#league-table .header{
+
+    text-align: center;
+    height: 28px;
+    font-family: 'iranSans';
+}
+#league-table .color-6 {
+    background-color: #f3b500;
+    color: #fff;
+}
+#league-table td{
+    height: 22px;
+}
+#league-table tr:nth-child(2n) {
+    background: #eee;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+#league-table a{
+    color: #444;
+    font-size: 11px;
+    font-family: 'iranSans';
+}
+.sub-header {
+    color: #fff!important;
+    background: #666!important;
+    text-align: center;
+    font-size: 11px;
+    line-height: 2.2;
+}

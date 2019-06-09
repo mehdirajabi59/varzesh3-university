@@ -1,0 +1,59 @@
+#news {
+
+    min-height: 600px;
+    display: block;
+    width: 100%;
+    clear: both;
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ddd;
+    background-color: #fff;
+    direction: rtl;
+}
+
+#news-header{
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#news-header h1{
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'iranSans';
+    font-weight: lighter;
+    color: #555;
+}
+
+#news-list ul {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 10px 5px;
+    list-style: none;
+}
+
+#news-list ul li {
+    margin: 0;
+    padding: 0;
+    text-indent: 13px;
+    background: transparent url('./bullet.gif') no-repeat right 9px;
+    line-height: 12px;
+
+}
+#news-list ul li a {
+    line-height: 2.5;
+    font-size: 11px;
+    color: #444;
+    font-family: 'iranSans';
+
+}
+#news-list ul li a:hover{
+    text-decoration: none;
+}
